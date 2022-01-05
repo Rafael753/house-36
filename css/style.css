@@ -21,64 +21,47 @@ h1 {
    
    
 }
-.conteiner {
+.conteiner{
     display: flex;
     width:100%;
+    height: 250px;
+    justify-content: center;
+    align-items: center;
     margin: auto;
-    height:550px;
-  justify-content: center;
-  margin-top: 58px;
-}
-.personagem {
-  vertical-align:text-top;
-   width:30%;
-   text-align: center;
-   border: solid black;
-   margin: 5px;
-   border-radius: 6px;
-   background: linear-gradient( rgba(128, 128, 128, 0.700), Black );
-   height:500px;
-   padding: 5px;
-   transition: 1s;
-   font-size: 20px;
-  }
-  .personagem:hover{
-    transform :scale(1.03) ;
-  }
-.personagem div {
-    font-size: 30px;
-    font-weight: bold;
-}
-.cbotao {
-    display: flex;
-    width: 100%;
-    justify-content: space-evenly;
-}
-.botao {
-    background: #9c8b8b ;
-    border-radius: 10px;
-    height: 30px;
-    font-weight: bold;
-    margin-top: 10px;
-    cursor: pointer;
-    box-shadow: 7px 7px 5px rgb(0, 0, 0) ;
-    transition: 1s;
-    text-align: center;
    
-    width: 100%;
+}
+.box{ 
+    width: 50%;
+    height: 150px;
+    background :linear-gradient(rgba(151, 151, 156, 0.700), rgb(32, 35, 37) );
+    text-align: center;
+    padding:35px 7px 0 7px;
+    border-radius: 6px;
     font-size: 20px;
-    
+    color: rgb(0, 0, 0);
+    box-shadow: 7px 7px 5px rgb(0, 0, 0) ;
+   
+   
+}
+
+section{
+    display: flex;
+    justify-content: center;
+}
+.botao{
+    padding: 0 30px 0 30px;
+    width: 100%;
+    height: 35px;
+    font-weight: bold;
+    text-align: center;
+    background :linear-gradient(rgb(151, 151, 156), rgb(32, 35, 37) );
+    box-shadow: 7px 7px 5px rgb(0, 0, 0) ;
+    border-radius: 10px;
+    font-size: 20px;
+    transition: 1s;
 }
 .botao:hover {
     background: red;
-    transform :scale(1.2) ;
-}
-.imgs{
-    width:90%;
-    height: 300px;
-   
-}
-audio {
-    width: 100%;
-    height: 500px;
+    transform :scale(1.2);
+    cursor: pointer;
 }
