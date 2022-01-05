@@ -1,0 +1,84 @@
+html ,body {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-image: url(../img/house.jpg);
+}
+.logo {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+h1 {
+    color: rgb(0, 0, 0);
+    background : rgb(233, 0, 0);
+    text-align: center;
+    font-size: 45px;
+    border-radius: 10px;
+    padding: 10px 15px 10px 15px;
+    box-shadow: 7px 7px 5px rgb(0, 0, 0) ;
+   
+   
+}
+.conteiner {
+    display: flex;
+    width:100%;
+    margin: auto;
+    height:550px;
+  justify-content: center;
+  margin-top: 58px;
+}
+.personagem {
+  vertical-align:text-top;
+   width:30%;
+   text-align: center;
+   border: solid black;
+   margin: 5px;
+   border-radius: 6px;
+   background: linear-gradient( rgba(128, 128, 128, 0.700), Black );
+   height:500px;
+   padding: 5px;
+   transition: 1s;
+   font-size: 20px;
+  }
+  .personagem:hover{
+    transform :scale(1.03) ;
+  }
+.personagem div {
+    font-size: 30px;
+    font-weight: bold;
+}
+.cbotao {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+.botao {
+    background: #9c8b8b ;
+    border-radius: 10px;
+    height: 30px;
+    font-weight: bold;
+    margin-top: 10px;
+    cursor: pointer;
+    box-shadow: 7px 7px 5px rgb(0, 0, 0) ;
+    transition: 1s;
+    text-align: center;
+   
+    width: 100%;
+    font-size: 20px;
+    
+}
+.botao:hover {
+    background: red;
+    transform :scale(1.2) ;
+}
+.imgs{
+    width:90%;
+    height: 300px;
+   
+}
+audio {
+    width: 100%;
+    height: 500px;
+}
