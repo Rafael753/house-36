@@ -25,10 +25,23 @@ h1 {
 .conteiner{
     display: flex;
     width:100%;
-    height: 250px;
+    height: 350px;
     justify-content: center;
     align-items: center;
     margin: auto;
+   
+}
+.box{ 
+    width: 50%;
+    height: 260px;
+    background :linear-gradient(rgba(151, 151, 156, 0.700), rgb(32, 35, 37) );
+    text-align: center;
+    padding:35px 7px 0 7px;
+    border-radius: 6px;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    box-shadow: 7px 7px 5px rgb(0, 0, 0) ;
+   
    
 }
 .bt {
@@ -54,17 +67,4 @@ h1 {
     background: red;
     transform :scale(1.2) ;
     cursor: pointer;
-}
-.box{ 
-    width: 50%;
-    height: 150px;
-    background :linear-gradient(rgba(151, 151, 156, 0.700), rgb(32, 35, 37) );
-    text-align: center;
-    padding:35px 7px 0 7px;
-    border-radius: 6px;
-    font-size: 20px;
-    color: rgb(0, 0, 0);
-    box-shadow: 7px 7px 5px rgb(0, 0, 0) ;
-   
-   
 }
