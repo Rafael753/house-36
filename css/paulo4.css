@@ -1,0 +1,84 @@
+html , body {
+    margin: 0;
+    padding:0;
+}
+
+body {
+    background-image: url(../img/house.jpg);
+}
+.logo {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+h1 {
+    color: rgb(0, 0, 0);
+    background : rgb(233, 0, 0);
+    text-align: center;
+    font-size: 45px;
+    border-radius: 10px;
+    padding: 10px 15px 10px 15px;
+    box-shadow: 7px 7px 5px rgb(0, 0, 0) ;
+   
+   
+}
+.conteiner{
+    display: flex;
+    width:100%;
+    height:450px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+   
+}
+.bt {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+.botao{
+    background: #9c8b8b ;
+    border-radius: 10px;
+    height: 30px;
+    font-weight: bold;
+    margin-top: 10px;
+    cursor: pointer;
+    box-shadow: 7px 7px 5px rgb(0, 0, 0) ;
+    transition: 1s;
+    text-align: center;
+   
+    width: 20%;
+    font-size: 20px;
+}
+.botao:hover{
+    background: red;
+    transform :scale(1.2) ;
+    cursor: pointer;
+}
+.box{ 
+    width: 50%;
+    height: 270px;
+    background :linear-gradient(rgba(151, 151, 156, 0.700), rgb(32, 35, 37) );
+    text-align: center;
+    padding:35px 7px 0 7px;
+    border-radius: 6px;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    box-shadow: 7px 7px 5px rgb(0, 0, 0) ;
+   
+   
+}
+.rodape{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height:210px;
+   width: 100%;
+    align-items: flex-end;
+
+}
+.rodapé {
+    background: rgba(151, 151, 156, 0.700);
+    width: 100%;
+    text-align: center;
+}

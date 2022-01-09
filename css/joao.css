@@ -68,3 +68,17 @@ h1 {
    
    
 }
+.rodape{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height:210px;
+   width: 100%;
+    align-items: flex-end;
+
+}
+.rodapé {
+    background: rgba(151, 151, 156, 0.700);
+    width: 100%;
+    text-align: center;
+}

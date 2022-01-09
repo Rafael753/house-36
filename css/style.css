@@ -49,6 +49,7 @@ h1 {
 section{
     display: flex;
     justify-content: center;
+    height:235px;
 }
 .botao{
     padding: 0 30px 0 30px;
@@ -66,4 +67,13 @@ section{
     background: red;
     transform :scale(1.2);
     cursor: pointer;
+}
+.rodape{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 20px;
+    background: rgba(151, 151, 156, 0.700);
+    
+
 }
