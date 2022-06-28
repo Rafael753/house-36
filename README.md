@@ -12,3 +12,5 @@ O jogo trata-se de uma história de terror vivida entre amigos.
 Apesar do jogo ser algo simples, acredito que seja um grande avanço em apenas 1 mês de curso.
 
 ![img](./img/select.png)
+
+### O jogo está disponivel neste  **[link](https://rafael753.github.io/house-36/)**
