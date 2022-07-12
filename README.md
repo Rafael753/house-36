@@ -13,4 +13,4 @@ Apesar do jogo ser algo simples, acredito que seja um grande avanço em apenas 1
 
 ![img](./img/select.png)
 
-### O jogo está disponivel neste  **[link](https://rafael753.github.io/house-36/)**
+### O jogo está disponivel nesse link  - **[House-36](https://rafael753.github.io/house-36/)**
